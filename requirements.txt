@@ -1,0 +1,20 @@
+# Core dependencies
+aiohttp
+requests
+python-telegram-bot
+
+# Configuration management
+python-dotenv
+pydantic
+pydantic-settings
+
+# File processing dependencies
+Pillow>=10.0.0
+pytesseract>=0.3.10
+pdfplumber>=0.10.3
+python-docx>=1.1.0
+PyPDF2>=3.0.0
+
+# Optional: For better PDF image extraction (uncomment if needed)
+# pdf2image>=1.16.3
+# poppler-utils  # System dependency, not pip installable
